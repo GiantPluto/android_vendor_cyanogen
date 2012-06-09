@@ -31,7 +31,7 @@ PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-
 PRODUCT_LOCALES += ldpi mdpi
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := OptimusOne
+PRODUCT_RELEASE_NAME := OptimusMe
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
 
