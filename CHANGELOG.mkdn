@@ -23,6 +23,7 @@ Maintainers:
 * Espresso (Slide): Cyanogen, Wes Garner
 * Liberty (Aria): attn1, jznomoney
 * Legend: Alexander Hofbauer
+* Pico: Sarthak Acharya
 * Vision (G2/Desire Z): Cyanogen
 * Geeksphone ONE: arcee
 * Geeksphone ZERO: arcee
