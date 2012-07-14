@@ -4,6 +4,9 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 # Inherit device configuration for pico.
 $(call inherit-product, device/htc/pico/pico.mk)
 
+# Extra overlay for MDPI
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/mdpi
+
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
@@ -19,10 +22,7 @@ PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_ID=GRI40 \
     PRIVATE_BUILD_DESC="pico-user 2.3.7 GRI90 20111018 release-keys" \
-    BUILD_FINGERPRINT=htc/pico/pico:2.3.7/GRI90/20111018:user/release-keys
-
-#Prelink map
-PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-linux-arm-msm722x.map
+    BUILD_FINGERPRINT=htc_asia_india/htc_pico/pico:2.3.5/GRJ90/171430.1:user/release-keys
 
 # Add MDPI assets
 PRODUCT_LOCALES += mdpi
